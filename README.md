@@ -9,4 +9,4 @@ This is a free-to-host static portfolio website for myself.
 - `Resume_SoftwareDev.pdf` - downloadable resume
 
 ## View
-To view the site, visit 'https://swdmartinez.github.io/'
+To view the site, visit https://swdmartinez.github.io/
