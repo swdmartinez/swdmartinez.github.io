@@ -176,45 +176,118 @@
           <div class="project-grid">
             <article class="project-card">
               <div class="project-header">
-                <h3>Overtime Deduction Calculator</h3>
+                <h3>vibecheck</h3>
+                <p class="project-stack">Python · Claude API · CLI</p>
+              </div>
+              <p
+                data-en="CLI tool that reviews git diffs against a best-practices checklist. Combines offline PHI and secrets scanning with Claude-backed code review. Includes a healthcare-specific checklist and CI integration."
+                data-es="Herramienta CLI que revisa diffs de git contra una lista de buenas practicas. Combina escaneo offline de PHI y secretos con revision de codigo impulsada por Claude. Incluye una lista especifica para salud y CI."
+              >
+                CLI tool that reviews git diffs against a best-practices
+                checklist. Combines offline PHI and secrets scanning with
+                Claude-backed code review. Includes a healthcare-specific
+                checklist and CI integration.
+              </p>
+              <a
+                class="inline-link"
+                href="https://github.com/swdmartinez/vibecheck"
+                target="_blank"
+                rel="noreferrer"
+                data-en="View on GitHub"
+                data-es="Ver en GitHub"
+                >View on GitHub</a
+              >
+            </article>
+
+            <article class="project-card">
+              <div class="project-header">
+                <h3>ticketsmith</h3>
+                <p class="project-stack">Python · Streamlit · Claude API</p>
+              </div>
+              <p
+                data-en="Converts rough feature or bug descriptions into structured engineering tickets with user story, acceptance criteria, edge cases, and suggested tests. Ready to paste into Jira or GitHub Issues."
+                data-es="Convierte descripciones roughas de funciones o bugs en tickets de ingenieria estructurados con historia de usuario, criterios de aceptacion, casos borde y pruebas sugeridas."
+              >
+                Converts rough feature or bug descriptions into structured
+                engineering tickets with user story, acceptance criteria, edge
+                cases, and suggested tests. Ready to paste into Jira or GitHub
+                Issues.
+              </p>
+              <a
+                class="inline-link"
+                href="https://github.com/swdmartinez/ticketsmith"
+                target="_blank"
+                rel="noreferrer"
+                data-en="View on GitHub"
+                data-es="Ver en GitHub"
+                >View on GitHub</a
+              >
+            </article>
+
+            <article class="project-card">
+              <div class="project-header">
+                <h3>SCORM Package Validator</h3>
+                <p class="project-stack">Python · Streamlit</p>
+              </div>
+              <p
+                data-en="Web-based SCORM 1.2/2004 validator that parses imsmanifest.xml, checks spec compliance, validates file references, and surfaces a structured error and warning report."
+                data-es="Validador web de paquetes SCORM 1.2/2004 que analiza imsmanifest.xml, verifica cumplimiento de especificaciones, valida referencias de archivos y genera un reporte estructurado de errores y advertencias."
+              >
+                Web-based SCORM 1.2/2004 validator that parses imsmanifest.xml,
+                checks spec compliance, validates file references, and surfaces
+                a structured error and warning report.
+              </p>
+              <a
+                class="inline-link"
+                href="https://github.com/swdmartinez/SCORM-Validator"
+                target="_blank"
+                rel="noreferrer"
+                data-en="View on GitHub"
+                data-es="Ver en GitHub"
+                >View on GitHub</a
+              >
+            </article>
+
+            <article class="project-card">
+              <div class="project-header">
+                <h3>ZaiOT</h3>
                 <p class="project-stack">
                   Python · Streamlit · Stripe · Cloudflare
                 </p>
               </div>
               <p
-                data-en="Monetized web application with payments, gated access, and automated reporting."
-                data-es="Aplicacion web monetizada con pagos, acceso restringido y reportes automatizados."
+                data-en="Monetized SaaS web app with Stripe payments, gated access control, automated report generation, and bilingual support. Real users, real payments, running continuously."
+                data-es="Aplicacion SaaS monetizada con pagos Stripe, control de acceso restringido, generacion automatica de reportes y soporte bilingue. Usuarios reales, pagos reales, funcionando continuamente."
               >
-                Monetized web application with payments, gated access, and
-                automated reporting.
+                Monetized SaaS web app with Stripe payments, gated access
+                control, automated report generation, and bilingual support.
+                Real users, real payments, running continuously.
               </p>
-            </article>
-
-            <article class="project-card">
-              <div class="project-header">
-                <h3>Client Analytics Service</h3>
-                <p class="project-stack">Python · SQL · Go</p>
-              </div>
-              <p
-                data-en="Backend analytics service built to turn document workflows into business insight."
-                data-es="Servicio de analitica backend creado para convertir flujos documentales en insights de negocio."
+              <a
+                class="inline-link"
+                href="https://zaiotcalculator.streamlit.app"
+                target="_blank"
+                rel="noreferrer"
+                data-en="Live App"
+                data-es="App en Vivo"
+                >Live App</a
               >
-                Backend analytics service built to turn document workflows into
-                business insight.
-              </p>
             </article>
 
             <article class="project-card">
               <div class="project-header">
                 <h3>County Document Ingestion Framework</h3>
-                <p class="project-stack">Python · Selenium</p>
+                <p class="project-stack">Python · SFTP · Selenium</p>
               </div>
               <p
-                data-en="Automation pipeline that replaced a manual government document retrieval workflow."
-                data-es="Pipeline de automatizacion que reemplazo un proceso manual de obtencion de documentos gubernamentales."
+                data-en="Inheritance-based ETL framework processing government records across multiple counties. Supports local filesystem, SFTP, and Selenium delivery modes with fault-tolerant batch processing. Hundreds of records per run, two years in production, no data loss."
+                data-es="Framework ETL basado en herencia que procesa registros gubernamentales en multiples condados. Soporta modos de entrega por sistema de archivos local, SFTP y Selenium con procesamiento por lotes tolerante a fallos."
               >
-                Automation pipeline that replaced a manual government document
-                retrieval workflow.
+                Inheritance-based ETL framework processing government records
+                across multiple counties. Supports local filesystem, SFTP, and
+                Selenium delivery modes with fault-tolerant batch processing.
+                Hundreds of records per run, two years in production, no data
+                loss.
               </p>
             </article>
           </div>
@@ -325,6 +398,7 @@
         </div>
       </footer>
     </div>
+
     <script>
       const languageToggle = document.getElementById("language-toggle");
       const translatableNodes = document.querySelectorAll("[data-en]");
@@ -335,14 +409,12 @@
 
       const applyLanguage = (lang) => {
         document.documentElement.lang = lang === "es" ? "es" : "en";
-
         translatableNodes.forEach((node) => {
           const nextText = node.dataset[lang];
           if (nextText) {
             node.textContent = nextText;
           }
         });
-
         languageToggle.querySelector("span").textContent =
           lang === "en" ? "ES" : "EN";
       };
@@ -366,7 +438,6 @@
           },
           { threshold: 0.16 },
         );
-
         animatedSections.forEach((section, index) => {
           section.style.setProperty("--delay", `${index * 70}ms`);
           observer.observe(section);
