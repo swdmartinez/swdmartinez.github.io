@@ -113,10 +113,10 @@ a {
 }
 
 .hero {
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 1rem 0 2rem;
 }
 
@@ -165,8 +165,8 @@ a {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   gap: 2rem;
-  align-items: end;
-  margin-top: 4rem;
+  align-items: center;
+  margin-top: 2rem;
 }
 
 .eyebrow {
