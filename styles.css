@@ -590,7 +590,7 @@ h3 {
   }
 }
 
-/* Profile Photo */
+/* ── Profile Photo ─────────────────────────────────────────────────────────── */
 .hero-photo {
   display: flex;
   align-items: center;
@@ -598,15 +598,10 @@ h3 {
 }
 
 .hero-photo img {
-  width: min(280px, 100%);
-  height: min(280px, 100%);
+  width: min(320px, 100%);
+  height: auto;
   object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid rgba(123, 240, 255, 0.35);
-  box-shadow:
-    0 0 0 6px rgba(123, 240, 255, 0.07),
-    0 0 40px rgba(123, 240, 255, 0.18),
-    var(--shadow);
+  border-radius: 1.5rem;
   animation: fade-up 850ms ease both;
   animation-delay: 200ms;
 }
@@ -617,7 +612,6 @@ h3 {
   }
 
   .hero-photo img {
-    width: min(180px, 60%);
-    height: min(180px, 60%);
+    width: min(200px, 60%);
   }
 }
